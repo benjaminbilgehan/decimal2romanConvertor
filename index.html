@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Decimal to Roman Converter</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background-color: blueviolet;
+      border: 1px solid limegreen;
+
+    }
+  </style>
+ 
+</head>
+
+<body>
+  <div class="container w-full">
+    <h1 class="text-3xl mb-4">Decimal to Roman Converter</h1>
+
+    <div class="flex flex-col items-center space-y-4">
+      <label for="decimal-input" class="text-lg">
+        Enter a decimal number:
+      </label>
+      <input type="number" id="decimal-input"
+        class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500" />
+
+      <button onclick="convert()"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        Convert
+      </button>
+
+      <h2 class="text-xl">Result:</h2>
+      <p id="result"></p>
+    </div>
+  </div>
+</body>
+
+</html>
