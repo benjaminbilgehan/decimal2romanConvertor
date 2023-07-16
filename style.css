@@ -1,15 +1,19 @@
-
 /* Custom styles for the container */
 body,
 html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.copy-write-fs {
+  margin-top: 55px;
+  font-size: 12px;
 }
