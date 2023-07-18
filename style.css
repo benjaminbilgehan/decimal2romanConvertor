@@ -17,3 +17,12 @@ html {
   margin-top: 55px;
   font-size: 12px;
 }
+
+
+.gray-text {
+color: rgb(230, 230, 230);
+background-color: rgb(86, 86, 86);
+padding: 10px;
+border-radius: 10px;
+font-weight: 300;
+}

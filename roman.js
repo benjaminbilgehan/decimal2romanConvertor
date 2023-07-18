@@ -27,6 +27,7 @@ function decimalToRoman(decimal) {
 
   return roman;
 }
+
 function convert() {
   const decimalInput = document.getElementById("decimal-input");
   const resultElement = document.getElementById("result");
